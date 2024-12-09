@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: rgba(85, 167, 173, 0.914);
+    font-family: "poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    padding: 1%;
+    background-color: rgb(50, 25, 161);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    justify-content: space-around;
+}
+
+nav ul a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+
+.left {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(246, 38, 65);
+}
+
+.left img {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+
+.right {
+    font-size: small;
+    color: #fff;
+    transition: 5s;
+}
+
+.right a:hover {
+    color: rgb(188, 153, 238);
+    font-size: 0.95rem;
+}
+
+
+#top-contact:hover{
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: rgb(201, 175, 237);
+    color:rgb(50, 25, 161);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.left-section {
+    background-color: aliceblue;
+    margin: 0;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+}
+
+.right-section {
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 80%;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+#my-pic {
+    height: 80%;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.my-pic {
+    display: flex;
+    margin-block-end: 15%;
+    margin-inline: 5%;
+    width: 40%;
+}
+
+.my-about {
+    margin: 5%;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-about h1 {
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+.my-about div {
+    padding-inline: 30%;
+}
+
+.my-about ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.my-about li {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+
+.my-about span {
+    font-size: 35px;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+.my-about span:hover {
+    text-transform: uppercase;
+    text-decoration: underline whitesmoke;
+}
+
+.my-about span::selection {
+    background-color: #c4c5de;
+}
+
+.my-about::first-letter {
+    color: blueviolet;
+}
+
+.my-about p {
+    display: flex;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: none;
+    margin: 0;
+}
+
+.my-about img:hover {
+    width: 20px;
+}
